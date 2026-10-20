@@ -1,1 +1,13 @@
-plugins { id 'com.android.application' version '8.7.3' apply false }
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'ir.marmary.persiancalllog'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ir.marmary.persiancalllog'
+        minSdk 23
+        targetSdk 32
+        versionCode 1
+        versionName '1.0'
+    }
+}
